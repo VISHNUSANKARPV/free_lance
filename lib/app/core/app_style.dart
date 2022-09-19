@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:free_lance/app/core/app_color.dart';
 
 final appBarTitleStyle = TextStyle(
     fontSize: 55.sp, fontWeight: FontWeight.normal, color: Colors.white);
@@ -11,6 +12,12 @@ h1Style({required bool black}) => TextStyle(
 
 final h2Style = TextStyle(
     fontSize: 29.sp, fontWeight: FontWeight.bold, color: Colors.black);
+
+final h2Styleblack = TextStyle(
+    fontSize: 30.sp, fontWeight: FontWeight.w400, color: Colors.black);
+
+final h2Styleaccent = TextStyle(
+    fontSize: 30.sp, fontWeight: FontWeight.bold, color: AppColor.accent);
 
 final h3Style = TextStyle(
     fontSize: 28.sp, fontWeight: FontWeight.w500, color: Colors.black);
@@ -33,9 +40,7 @@ final subtitleLight = TextStyle(
 bitSmall({required bool black}) => TextStyle(
     fontSize: 16.sp,
     fontWeight: FontWeight.normal,
-    color: black ? const Color.fromARGB(139, 0, 0, 0) : Colors.white
-    
-    );
+    color: black ? const Color.fromARGB(139, 0, 0, 0) : Colors.white);
 final small = TextStyle(
     fontSize: 12.sp,
     fontWeight: FontWeight.normal,
