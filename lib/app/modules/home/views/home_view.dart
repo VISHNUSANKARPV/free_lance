@@ -3,9 +3,9 @@ import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:free_lance/app/core/app_color.dart';
 import 'package:free_lance/app/core/app_style.dart';
+import 'package:free_lance/app/routes/app_pages.dart';
 import 'package:free_lance/app/widgets/widgets.dart';
 import 'package:get/get.dart';
-
 import '../controllers/home_controller.dart';
 
 class HomeView extends GetView<HomeController> {
@@ -76,11 +76,14 @@ class HomeView extends GetView<HomeController> {
                   const Spacer(),
                   Text('View All', style: h5StyleLight),
                   SizedBox(width: 10.w),
-                  CircleAvatar(
-                      radius: 20.r,
-                      backgroundColor: AppColor.accent,
-                      child: Icon(Icons.arrow_forward_ios_outlined,
-                          color: AppColor.primaryLight, size: 23.sp))
+                  InkWell(
+                    onTap: () => Get.toNamed(Routes.flashSale),
+                    child: CircleAvatar(
+                        radius: 20.r,
+                        backgroundColor: AppColor.accent,
+                        child: Icon(Icons.arrow_forward_ios_outlined,
+                            color: AppColor.primaryLight, size: 23.sp)),
+                  )
                 ])),
             Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 16),

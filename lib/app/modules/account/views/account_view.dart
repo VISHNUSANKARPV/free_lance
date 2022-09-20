@@ -14,7 +14,7 @@ class AccountView extends GetView<AccountController> {
     return Scaffold(
       appBar: AppBar(
         toolbarHeight: 70.h,
-        title: Text('Account Info',style: appBarTitleStyle),
+        title: Text('Account',style: appBarTitleStyle),
         ),
       );
   }

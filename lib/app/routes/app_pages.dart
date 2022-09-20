@@ -6,6 +6,8 @@ import '../modules/alert/bindings/alert_binding.dart';
 import '../modules/alert/views/alert_view.dart';
 import '../modules/cart/bindings/cart_binding.dart';
 import '../modules/cart/views/cart_view.dart';
+import '../modules/flash_sale/bindings/flash_sale_binding.dart';
+import '../modules/flash_sale/views/flash_sale_view.dart';
 import '../modules/home/bindings/home_binding.dart';
 import '../modules/home/views/home_view.dart';
 import '../modules/order/bindings/order_binding.dart';
@@ -28,7 +30,7 @@ class AppPages {
     ),
     GetPage(
       name: _Paths.root,
-      page: () => const RootView(),
+      page: () => RootView(),
       binding: RootBinding(),
     ),
     GetPage(
@@ -50,6 +52,11 @@ class AppPages {
       name: _Paths.order,
       page: () => const OrderView(),
       binding: OrderBinding(),
+    ),
+    GetPage(
+      name: _Paths.flashSale,
+      page: () => const FlashSaleView(),
+      binding: FlashSaleBinding(),
     ),
   ];
 }

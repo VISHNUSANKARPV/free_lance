@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:free_lance/app/core/app_color.dart';
 import 'package:free_lance/app/core/app_style.dart';
 import 'package:free_lance/app/widgets/cart/bottom_nav.dart';
 import 'package:free_lance/app/widgets/cart/cart_product.dart';
-
 import 'package:get/get.dart';
-
 import '../controllers/cart_controller.dart';
 
 class CartView extends GetView<CartController> {
@@ -27,5 +24,5 @@ class CartView extends GetView<CartController> {
           }),
       bottomNavigationBar: CartNav.nav(),
     );
-  }
+  }  
 }
