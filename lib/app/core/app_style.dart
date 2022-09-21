@@ -26,7 +26,7 @@ final h4StyleLight = TextStyle(
     fontSize: 25.sp, fontWeight: FontWeight.w500, color: Colors.black);
 
 final h5StyleLight = TextStyle(
-    fontSize: 27.sp, fontWeight: FontWeight.w400, color: Colors.black87);
+    fontSize: 27.sp, fontWeight: FontWeight.w400, color: Colors.black);
 
 final h6StyleLight = TextStyle(
     fontSize: 25.sp, fontWeight: FontWeight.w500, color: Colors.white);
@@ -35,7 +35,7 @@ final bodyTextLight = TextStyle(
     fontSize: 23.sp, fontWeight: FontWeight.w600, color: Colors.black45);
 
 final subtitleLight = TextStyle(
-    fontSize: 22.sp, fontWeight: FontWeight.bold, color: Colors.black45);
+    fontSize: 22.sp, fontWeight: FontWeight.normal, color: Colors.black);
 
 bitSmall({required bool black}) => TextStyle(
     fontSize: 16.sp,

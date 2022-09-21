@@ -10,7 +10,7 @@ class FlashSaleNav {
           child: TextButton(
             onPressed: () {},
             child: Padding(
-              padding: const EdgeInsets.all(8),
+              padding: EdgeInsets.all(8.r),
               child: Row(
                 children: [
                   Text('1 item | \$ 220', style: h1Style(black: false)),
