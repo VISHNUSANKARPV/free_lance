@@ -16,7 +16,7 @@ class RootView extends GetView<RootController> {
     const AlertView(),
     const HomeView(),
     const OrderView(),
-    const AccountView()
+     AccountView()
   ];
   @override
   Widget build(BuildContext context) {
