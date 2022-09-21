@@ -6,4 +6,6 @@ export './home/product_item.dart';
 export 'flash_sale/bottom_nav.dart';
 //flashsale custom widgets
 export './flash_sale/flashsale_product.dart';
+//order custom widgets
+export './order/order_item.dart';
 //common custom widgets
